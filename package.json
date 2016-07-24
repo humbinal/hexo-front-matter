@@ -1,7 +1,7 @@
 {
   "name": "hexo-front-matter",
   "main": "./lib/hexo-front-matter",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "Generate hexo-front-matter in atom for markdown file.",
   "keywords": [
     "hexo",
