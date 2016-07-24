@@ -1,13 +1,16 @@
 {
   "name": "hexo-front-matter",
   "main": "./lib/hexo-front-matter",
-  "version": "0.0.0",
-  "description": "A short description of your package",
-  "keywords": [],
+  "version": "0.1.0",
+  "description": "Generate hexo-front-matter in atom for markdown file.",
+  "keywords": [
+     "hexo",
+     "front-matter"
+  ],
   "activationCommands": {
     "atom-workspace": "hexo-front-matter:toggle"
   },
-  "repository": "https://github.com/atom/hexo-front-matter",
+  "repository": "https://github.com/humbinal/hexo-front-matter",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
