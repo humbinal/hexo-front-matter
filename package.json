@@ -10,7 +10,10 @@
   "activationCommands": {
     "atom-workspace": "hexo-front-matter:toggle"
   },
-  "repository": "https://github.com/humbinal/hexo-front-matter",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/humbinal/hexo-front-matter"
+  },
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
