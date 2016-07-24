@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle hexo-front-matter",
+        "command": "hexo-front-matter:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "hexo-front-matter",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "hexo-front-matter:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
