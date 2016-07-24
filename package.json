@@ -18,6 +18,11 @@
     "url": "https://github.com/humbinal/hexo-front-matter/issues"
   },
   "license": "MIT",
+  "author": {
+    "name": "humbinal",
+    "email": "huangbin1020@126.com",
+    "url": "https://github.com/humbinal"
+  },
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
