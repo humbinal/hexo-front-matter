@@ -1,5 +1,20 @@
 # hexo-front-matter package
 
-A short description of your package.
+### This package will insert the Hexo Front-matter into your cursor position.
 
-![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
+Text as follows:
+
+```
+	---
+	title: article   //hexo post title
+	date: 2016-07-24 17:24:39  //date for hexo
+	id: 1469352279  //data's timestamp,for hexo permalink is SEO friendly,you should config the '_config.yml' file like this: permalink: post/:id.html
+	tags:
+	  - untagged  //tag name
+	categories:
+	  - uncategorized  //category name
+	keywords: keyword1,keyword2   //keyword or keywords split by comma
+	description: description   //article's description
+	---
+```
+![A screenshot about the package](https://raw.githubusercontent.com/humbinal/hexo-front-matter/master/hexo-front-matter.gif)
